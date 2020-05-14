@@ -6,7 +6,7 @@ The Spotify API is easy to use and can be added to any application.
 
 ## Details
 
-This app DOES NOT store any information. It only uses the Spotify API to get your information, and Firebase to host. The Client ID for Spotify has been removed and you need to make your own application on Spotify to use this.
+This app **DOES NOT** store any information. It only uses the Spotify API to get your information, and Firebase to host. The Client ID for Spotify has been removed and you need to make your own application on Spotify to use this.
 
 This code is public purely for those that want to verify that this application is safe and secure.
 

@@ -112,6 +112,18 @@ class App extends Component {
     ) : !this.state.token ? (
       <div>
         <div>
+          <body>
+            <a
+              href="https://github.com/sshah98/spotifyisolation"
+              style={{ textDecoration: "none", color: "#1ecd97" }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Link to code!
+            </a>
+          </body>
+        </div>
+        <div>
           <img src={logo} className="App-logo" alt="logo" />
         </div>
         <a
@@ -167,21 +179,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <header className="App-header">
-          <div>
-            <body>
-              <a
-                href="https://surajshah.me"
-                style={{ textDecoration: "none", color: "#1ecd97" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Link to code!
-              </a>
-            </body>
-          </div>
-          {spotifyData}
-        </header>
+        <header className="App-header">{spotifyData}</header>
       </div>
     );
   }
